@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1200px) {
+	.features {
+
+		.container {
+
+			.features_blocks {
+				flex-wrap: wrap;
+
+				.features_block {
+					width: 46%;
+					margin-top: 25px;
+				}
+			}
+		}
+	}
+}

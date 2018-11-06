@@ -1,0 +1,68 @@
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+    line-height: 20px; }
+  h2 {
+    margin-top: 50px;
+    font-size: 20px; }
+  p {
+    margin-top: 10px;
+    font-size: 12px; }
+  .wrapper header {
+    margin-top: 10px; }
+    .wrapper header .logo {
+      width: 40px;
+      height: 40px; }
+  .wrapper .wrapper_information {
+    width: 95%;
+    height: calc(100vh - 80px); }
+    .wrapper .wrapper_information .wrap_input {
+      height: 30px; }
+      .wrapper .wrapper_information .wrap_input .select-items div,
+      .wrapper .wrapper_information .wrap_input .select-selected {
+        height: 30px; }
+      .wrapper .wrapper_information .wrap_input .select-selected:after {
+        width: 15px;
+        height: 15px;
+        background-size: cover; }
+      .wrapper .wrapper_information .wrap_input .second_input::after {
+        background-size: cover;
+        width: 15px;
+        height: 15px; }
+  .phone .container .phone_photo img {
+    width: 70%; }
+  .features .container .features_blocks {
+    margin-top: 0px; }
+  .works {
+    padding-bottom: 30px; }
+    .works .container .works_information {
+      width: 95%; }
+    .works .container .work_gallery {
+      margin-top: 20px; }
+      .works .container .work_gallery .menu_gallery ul li a {
+        padding: 15px 10px; }
+      .works .container .work_gallery .blocks_gallery {
+        margin-top: 10px; }
+        .works .container .work_gallery .blocks_gallery .block_gallery {
+          width: 100%;
+          margin-top: 25px; }
+          .works .container .work_gallery .blocks_gallery .block_gallery .photo_gallery {
+            height: 30vh; }
+          .works .container .work_gallery .blocks_gallery .block_gallery .text_gallery {
+            height: 50px; }
+  .push .container .push_information .information p {
+    font-size: 12px; }
+  .push .container .push_information .information .text {
+    font-size: 24px;
+    line-height: 20px; }
+  .desktop {
+    padding-bottom: 20vh; }
+    .desktop .container .computer {
+      bottom: -15vh; }
+    .desktop .container .button_up {
+      top: 5vh;
+      left: 0;
+      width: 40px;
+      height: 40px; }
+  footer .footer_information .footer_list ul {
+    height: 180px; } }

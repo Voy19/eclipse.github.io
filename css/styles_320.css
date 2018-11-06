@@ -1,0 +1,18 @@
+@media only screen and (max-width: 320px) {
+  .wrapper .wrapper_information .wrap_input {
+    font-size: 10px; }
+    .wrapper .wrapper_information .wrap_input input {
+      font-size: 10px; }
+  .features .container .features_blocks .features_block .circle_block {
+    width: 80px;
+    height: 80px; }
+  .works .container .work_gallery .menu_gallery ul li a {
+    font-size: 12px;
+    padding: 5px; }
+  footer .social_buttons {
+    justify-content: center; }
+  footer .footer_information .footer_list ul {
+    height: 150px; }
+    footer .footer_information .footer_list ul li {
+      display: flex;
+      justify-content: center; } }

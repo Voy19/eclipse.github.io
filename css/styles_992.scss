@@ -1,0 +1,91 @@
+@media only screen and (max-width: 992px) {
+	body {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		color: #74797e;
+	}
+
+	h1 {
+		font-size: 40px;
+		line-height: 45px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.circle {
+		width: 70px;
+		height: 70px;
+		top: -35px;
+	}
+
+	.container {
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.works {
+
+		.container {
+
+			.work_gallery {
+
+				.blocks_gallery {
+
+					.block_gallery {
+
+						.text_gallery {
+
+							.text {
+
+								p {
+									font-size: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.push {
+
+		.container {
+
+			.push_information {
+
+				.information {
+
+					.text {
+						font-size: 40px;
+						line-height: 45px;
+					}
+				}
+			}
+		}
+
+	}
+
+	.desktop {
+		padding-bottom: 45vh;
+
+		.container {
+
+			.computer {
+				bottom: -35vh;
+			}
+
+			.button_up {
+				left: -5%;
+			}
+
+		}
+	}
+}

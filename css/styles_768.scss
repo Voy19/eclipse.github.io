@@ -1,0 +1,334 @@
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	.container {
+		width: 90%;
+	}
+
+	.wrapper {
+		.container {
+			width: 100%;
+		}
+
+		header {
+			align-items: flex-start;
+
+			.logo {
+				margin-left: 10%;
+				width: 58px;
+				height: 58px;
+			}
+
+			.wrap {
+
+				.menu {
+					position: absolute;
+					right: 0;
+					width: 50%;
+
+					ul {
+						flex-direction: column;
+						margin-top: 50px;
+
+						li {
+							display: none;
+							padding: 0;
+
+							a {
+								color: rgb(0, 0, 0);
+							}
+						}
+
+						.icon {
+							opacity: 1;
+							display: block;
+							position: absolute;
+							right: 20px;
+							top: 0;
+
+							a {
+								padding: 5px 0;
+
+								&:last-child {
+									border: none;
+
+									&:hover {
+										border: none;
+									}
+								}
+
+								&:hover {
+									border: none;
+								}
+							}
+						}
+
+						.join {
+							background-color: #69b7f2a2;
+							border-radius: 0;
+							-webkit-border-radius: 0;
+							-moz-border-radius: 0;
+							-ms-border-radius: 0;
+							-o-border-radius: 0;
+							border-bottom: none !important;
+
+							a {
+
+								&::after {
+									display: none;
+								}
+							}
+
+							&:hover {
+
+								a {
+									padding-bottom: 0;
+									border-bottom: none;
+									color: #000 !important;
+								}
+							}
+
+						}
+
+					}
+
+					.responsive {
+						background-color: #69b7f2a2;
+
+						li {
+							position: relative;
+							display: block;
+							border-bottom: 1px solid #000;
+							text-align: center;
+
+							a {
+								border-bottom: none;
+								padding: 5px 0;
+								width: 100%;
+
+								&:hover {
+									padding: 5px 0;
+									border-bottom: none;
+									color: #fff;
+									background-color: transparent;
+								}
+							}
+
+							&:last-child {
+
+								&:hover {
+									background-color: transparent;
+								}
+							}
+
+							&:hover {
+								background-color: #2c93e2bd;
+							}
+						}
+
+						.icon {
+							position: absolute;
+							top: 0;
+							right: 20px;
+							border-bottom: none;
+
+							a {
+								padding: 5px 0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.wrapper_information {
+			margin: 0 auto;
+			width: 80%;
+
+			.wrap_information {
+				width: 100%;
+				text-align: center;
+			}
+
+			.wrap_input {
+				width: 90%;
+				margin: 20px auto;
+				height: 40px;
+
+				.select-items div,
+				.select-selected {
+					height: 40px;
+				}
+			}
+		}
+	}
+
+	.phone {
+
+		.container {
+			width: 90%;
+		}
+	}
+
+	.features {
+		padding-bottom: 60px;
+
+		.container {
+
+			.features_information {
+				margin: 0 auto;
+				width: 95%;
+			}
+
+			.features_blocks {
+				margin-top: 25px;
+
+				.features_block {
+					width: 100%;
+
+					.circle_block {
+						width: 100px;
+						height: 100px;
+					}
+
+					h3 {
+						margin-top: 20px;
+					}
+
+					p {
+						margin-top: 25px;
+					}
+				}
+			}
+		}
+	}
+
+	.works {
+
+		.container {
+
+			.works_information {
+				width: 95%;
+			}
+
+			.work_gallery {
+				margin-top: 50px;
+
+				.menu_gallery {
+
+					ul {
+
+						li {
+
+							a {
+								padding: 15px 20px;
+							}
+						}
+					}
+				}
+
+				.blocks_gallery {
+
+					.block_gallery {
+
+						.text_gallery {
+							height: 60px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.push {
+
+		.container {
+
+			.push_information {
+				width: 90%;
+
+				.logo {
+					width: 15%;
+					height: 15%;
+				}
+
+				.information {
+
+					p {
+						font-size: 16px;
+					}
+
+					.text {
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+
+	.desktop {
+		padding-bottom: 55vh;
+
+		.container {
+
+			.computer {
+				bottom: -50vh;
+			}
+
+			.button_up {
+				top: 15vh;
+				left: 0;
+				width: 40px;
+				height: 40px;
+			}
+		}
+	}
+
+	footer {
+
+		.footer_information {
+			flex-wrap: wrap;
+
+			.footer_list {
+
+				ul {
+					height: 150px;
+				}
+			}
+
+			.footer_address {
+				width: 100%;
+				text-align: center;
+
+				p {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.works {
+
+		.container {
+
+			.work_gallery {
+
+				.blocks_gallery {
+
+					.block_gallery {
+						width: 48%;
+						margin-top: 25px;
+
+						.photo_gallery {
+							height: 30vh;
+						}
+					}
+				}
+			}
+		}
+	}
+}
