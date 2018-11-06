@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:700");
 
 @font-face {
    font-family: 'Gotham Pro';
@@ -24,15 +24,4 @@
    font-style: normal;
 }
 
-@font-face {
-   font-family: 'Adine Kirnberg';
-   src: url('/fonts/AdineKirnberg.eot');
-   src: url('/fonts/AdineKirnberg.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/AdineKirnberg.woff2') format('woff2'),
-       url('/fonts/AdineKirnberg.woff') format('woff'),
-       url('/fonts/AdineKirnberg.ttf') format('truetype'),
-       url('/fonts/AdineKirnberg.svg#AdineKirnberg') format('svg');
-   font-weight: 100;
-   font-style: normal;
-} */
 
